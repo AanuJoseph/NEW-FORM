@@ -70,21 +70,20 @@ input{
 }
 @media(max-width:768px){
     .over{
+        align-items: center;
         flex-direction: column;
-        padding: 10px;
-        border: none;
-        border-radius: 10px;
+        text-align: center;
+        padding: 10px -500px;
+    }
     }
     .third h4,.pic,button{
         text-align: center;
     }
     .first{
+        width: 300%;
         text-align: center;
-        width: 500%;
-        padding: 20px;
     }
     .second{
-        width: 500%;
-        padding: 20px;
+        width: 300%;
+        text-align: center;
     }
-}
