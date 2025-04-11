@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    background-color: rgba(201, 59, 59, 2);
+    padding: 40px 80px;
+    overflow: hidden;
+}
+.over{
+    background-color: rgba(201, 59, 59, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
+.second{
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    width: 100%;
+    
+}
+.first{
+    background-color: rgb(211, 97, 97);
+    text-align: center;
+    padding: 1px;
+    color: white;
+    width: 100%;
+    padding: 200px 0;
+}
+input{
+    margin-bottom: 20px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.third{
+    margin: 100px 0;
+}
+.third h4{
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+button a{
+    text-decoration: none;
+    /* color: white; */
+}
+.btn2{
+    background-color: red;
+    color: white;
+}
+input{
+    padding-left: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;   
+}
+@media(max-width: 768px){
+    .over{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 5px;
+    }
+    .first{
+        width: 150%;
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .second{
+        width: 150%;
+    }
+}

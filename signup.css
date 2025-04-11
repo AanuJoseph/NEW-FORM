@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins" , sans-serif;
+}
+body{
+    background-color: rgb(35, 35, 122);
+    padding: 40px 150px;
+    margin-top: 100px;
+}
+.over{
+    background-color: rgb(35, 35, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.second{
+    background-color: white;
+    width: 100%;
+    padding: 70px 40px;
+}
+.third h4{
+    color: rgb(35, 35, 122);
+    margin-bottom: 20px;
+    text-align: center;
+}
+.third .pic{
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(35, 35, 122);
+}
+.third p{
+    margin-bottom: 3px;
+}
+input{
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.first{
+    text-align: center;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 100px 0;
+}
+.btn2{
+    width: 100%;
+    background-color: rgb(35, 35, 122);
+    color: white;
+     border: none;
+     padding: 10px;
+     border-radius: 10px;
+}
+.first h4{
+    color: white;
+}
+.btn1{
+    width: 100px;
+    margin-top: 10px;
+    color:  rgb(35, 35, 122);
+     border: none;
+     padding: 10px;
+     border-radius: 10px;
+}
+@media(max-width:768px){
+    .over{
+        flex-direction: column;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    .third h4,.pic,button{
+        text-align: center;
+    }
+    .first{
+        text-align: center;
+        width: 500%;
+        padding: 20px;
+    }
+    .second{
+        width: 500%;
+        padding: 20px;
+    }
+}
